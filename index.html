@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>春日胖虎</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 页面0 - 开场 -->
+  <div id="page0" class="page active">
+    <div class="content">
+      <img src="images/6.jpg" alt="春日胖虎" class="main-image">
+      <p class="question">猜猜这个网站是干什么的</p>
+    </div>
+  </div>
+
+  <!-- 页面1 -->
+  <div id="page1" class="page">
+    <div class="content">
+      <img src="images/1.jpg" alt="春日胖虎" class="main-image">
+      <p class="question">可以给春日胖虎一个笑容吗？</p>
+      <div class="button-group">
+        <button class="choice-btn" data-choice="medium">中份的</button>
+        <button class="choice-btn" data-choice="large">大份的</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 页面2 -->
+  <div id="page2" class="page">
+    <div class="content">
+      <img src="images/3.jpg" alt="春日胖虎" class="main-image">
+      <p class="message">因为怠惰的胖虎只做了这么点，所以要说拜拜啦</p>
+      <button class="action-btn" id="byeBtn1">拜拜</button>
+    </div>
+  </div>
+
+  <!-- 页面3 -->
+  <div id="page3" class="page">
+    <div class="content">
+      <img src="images/5.jpg" alt="春日胖虎" class="main-image">
+      <p class="question" id="page3Question">春日胖虎是不是最帅的？</p>
+      <div class="button-group" id="page3Buttons">
+        <button id="noBtn" class="choice-btn">不是</button>
+        <button id="yesBtn" class="choice-btn">是</button>
+      </div>
+      <p class="message hidden" id="happyMessage">很好很好，本胖虎很开心</p>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
